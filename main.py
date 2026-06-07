@@ -598,7 +598,7 @@ def _keyword_chart(analysis: dict) -> None:
             autorange="reversed",
             gridcolor="rgba(255,255,255,0.04)" if dm else "rgba(0,0,0,0.04)",
             tickfont=dict(size=12),
-            tickcolor="transparent",
+            tickcolor="rgba(0,0,0,0),
         ),
         xaxis=dict(
             gridcolor="rgba(255,255,255,0.05)" if dm else "rgba(0,0,0,0.05)",
